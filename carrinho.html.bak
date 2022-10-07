@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<title>Carrinho - BS</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link rel="icon" href="imagens/logobs3.png">
+	
+<style>
+
+body {
+  background-color: #eee;
+}
+
+  h5 {
+  color: black;
+  font-family: serif;
+  font-size: 25px;
+}
+
+  h2 {
+  color: black;
+  font-family: serif;
+  font-size: 40px;
+}
+
+  h4 {
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+  p {
+  font-family: monospace;
+  font-size: 17px;
+}
+
+  body {
+  background-color: #fef6fe;
+}
+
+  td {
+  text-align: center;
+}
+
+  th {
+  text-align: center;
+  font-size: 16px;
+}
+
+</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+</br> </br>
+  <div class="container-fluid">
+  <img src="imagens/logobs.png" height="100"" alt=""
+		loading="lazy" />
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+	  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Feminino</a>
+        </li>
+		&nbsp; &nbsp; &nbsp; &nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="calcados.html">Calçados</a>
+        </li>
+		&nbsp; &nbsp; &nbsp; &nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="jeans.html">Jeans&nbsp;<span class="badge bg-secondary">New</span></a>
+        </li>
+		&nbsp; &nbsp; &nbsp; &nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="acessorios.html">Acessórios</a>
+        </li>
+		&nbsp; &nbsp; &nbsp; &nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="tamanhos.html">Tamanhos</a>
+        </li>
+		&nbsp; &nbsp; &nbsp; &nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">Sobre Nós</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-dark" type="button">Search</button>
+      </form>
+	  &nbsp; &nbsp; &nbsp; &nbsp;
+	  <a href="carrinho.html" type="button" class="btn btn-dark">Carrinho&nbsp;<i class="fa-solid fa-cart-shopping"></a></i>
+	  &nbsp; &nbsp; &nbsp; &nbsp;
+    </div>
+  </div>
+</nav>
+
+<h6>
+<div class="alert alert-dark" role="alert" style="height:50px">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item">Feminino</li>
+			<li class="breadcrumb-item">Calçados</li>
+			<li class="breadcrumb-item">Jeans</li>
+			<li class="breadcrumb-item">Acessórios</li>
+			<li class="breadcrumb-item">Tamanhos</a></li>
+			<li class="breadcrumb-item">Sobre Nós</li>
+			<li class="breadcrumb-item"><a href="carrinho.html">Carrinho</a></li>
+		</ol>
+</div>
+</h6>
+
+</br>
+</br>
+</br>
+
+<div class="container">
+	<div class="row gx-5 justify-content-center">
+		<div class="col-lg-10 col-md-12">
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Quantidade</th>
+						<th>Produto</th>
+						<th>Nome</th>
+						<th>Cor</th>
+						<th>Tamanho</th>
+						<th>Preço</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td class="imagem"> <img src="imagens/conjuntoconfort.jpg" width="50" height="50"> </td>
+						<td>Conjunto Confort</td>
+						<td class="imagem"> <img src="imagens/amarelo.png" width="50" height="50"> </td>
+						<td>M - 38/40</td>
+						<td> <a class="btn btn-primary btn-sm">R$119,99</a></td>
+						
+					</tr>
+					<tr>
+						<td>1</td>
+						<td class="imagem"> <img src="imagens/cardiganmorango.jpg" width="50" height="50"> </td>
+						<td>Cardigan Morango</td>
+						<td class="imagem"> <img src="imagens/rosa.png" width="50" height="50"> </td>
+						<td>M - 38/40</td>
+						<td> <a class="btn btn-primary btn-sm">R$99,99</a></td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td class="imagem"> <img src="imagens/sapatooxford.jpg" width="50" height="50"> </td>
+						<td>Sapato Oxford</td>
+						<td class="imagem"> <img src="imagens/rosaescuro.jpg" width="50" height="50"> </td>
+						<td>37</td>
+						<td> <a class="btn btn-primary btn-sm">R$190,00</a></td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td class="imagem"> <img src="imagens/shortsrasg.jpg" width="50" height="50"> </td>
+						<td>Shorts Rasgado</td>
+						<td class="imagem"> <img src="imagens/azul.jpg" width="50" height="50"> </td>
+						<td>M - 38/40</td>
+						<td> <a class="btn btn-primary btn-sm">R$69,90</a></td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="15"><a class="btn btn-primary btn-sm">R$479,80&nbsp;&nbsp;<span class="badge bg-danger">Total</span></a></td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row gx-5 justify-content-center">
+		<div class="col-lg-10 col-md-12">
+			<button type="button" class="btn btn-danger">
+				Formas de pagamento &nbsp;<i class="fa-solid fa-cart-shopping"></i>
+			</button>
+		</div>
+	</div>
+</div>
+	
+
+</body>
+</html>

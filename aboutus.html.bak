@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre Nós - BS</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link href="css/style.css" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link rel="icon" href="imagens/logobs3.png">
+
+
+
+  <style>
+    body {
+      background-color: #eee;
+    }
+
+    h5 {
+      color: black;
+      font-family: serif;
+      font-size: 25px;
+    }
+
+    h2 {
+      color: blue;
+      font-family: sans-serif;
+      font-size: 15px;
+    }
+
+    h4 {
+      color: black;
+      font-family: monospace;
+      font-size: 25px;
+    }
+
+	h3 {
+      color: dark-grey;
+      font-family: Courier;
+      font-size: 20px;
+    }
+
+    p {
+      font-family: monospace;
+      font-size: 17px;
+    }
+
+    body {
+      background-color: #f4f3ee;
+    }
+	
+	bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+     font-size: 3.5rem;
+    }
+}
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    </br> </br>
+    <div class="container-fluid">
+     	<img src="imagens/logobs.png" height="150px" width="150px" height="100" loading="lazy" />
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Feminino</a>
+          </li>
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="calcados.html">Calçados</a>
+          </li>
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="jeans.html">Jeans&nbsp;<span class="badge bg-secondary">New</span></a>
+          </li>
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="acessorios.html">Acessórios</a>
+          </li>
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="tamanhos.html">Tamanhos</a>
+          </li>
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="sobrenos.html">Sobre Nós</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-dark" type="button">Search</button>
+        </form>
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="carrinho.html" type="button" class="btn btn-dark">Carrinho&nbsp;<i class="fa-solid fa-cart-shopping"></a></i>
+        &nbsp; &nbsp; &nbsp; &nbsp;
+      </div>
+    </div>
+  </nav>
+
+  <h6>
+    <div class="alert alert-dark" role="alert" style="height:50px">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">Feminino</li>
+        <li class="breadcrumb-item">Calçados</li>
+        <li class="breadcrumb-item">Jeans</li>
+        <li class="breadcrumb-item">Acessórios</li>
+        <li class="breadcrumb-item">Tamanhos</li>
+        <li class="breadcrumb-item"><a href="aboutus.html">Sobre Nós</a></li>
+      </ol>
+    </div>
+  </h6>
+
+</br>
+
+<center>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagens/inspiração.jpg" style="width:1900px">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/shein.jpg" style="width:1900px">
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/pinterest.jpg" style="width:1900px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+    data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+    data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</center>
+
+</br>
+</br>
+</br>
+
+<div class="container">
+  <div class="row gx-7 justify-content-center">
+		<div class="col-lg-5 col-md-15">
+			<div class="card" style="width:400px">
+				<img class="card-img-top" <img src="imagens/gab.jpg" alt="Gab" style="width:100%">
+				<div class="card-body">
+					<h4 class="card-title">Gabriel Annunciato (Gab)</h4>
+					<h3 class="card-text">Creative Director & Desginer</h3>
+					<p>Olá! Tenho 16 anos. Gosto da Marvel, principalmente da Wanda. Amo séries de fantasia.</p>
+					<h2>gabriel.annunciato@etec.sp.gov.br</h2>
+					<a href="https://delve.office.com/?u=7826610f-bb75-44de-901e-1524c23b236b&v=work" class="btn btn-primary">Contact</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-5 col-md-15">
+			<div class="card" style="width:400px">
+				<img class="card-img-top" <img src="imagens/bella.jpg" alt="Bella" style="width:100%">
+				<div class="card-body">
+					<h4 class="card-title">Isabella dos Anjos (Bella)</h4>
+					<h3 class="card-text">CEO & Programmer</h3>
+					<p>Bom dia! Tenho 15 anos. Amo música, principalmente Kpop. Meu passatempo favorito é programar.</p>
+					<h2>isabella.celici@etec.sp.gov.br</h2>
+					<a href="https://delve.office.com/?u=83d37da6-9a6a-4eb4-89c5-019ed2cf26c3&v=profiledetails" class="btn btn-primary">Contact</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+  <footer>
+    <div class="mt-5 p-4 bg-dark text-white text-center">
+      <p>By: Bella & Gab</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

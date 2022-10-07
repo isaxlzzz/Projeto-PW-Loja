@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blank Space Clothing</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link href="css/style.css" rel="stylesheet">
+
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+		rel="stylesheet">
+		<link rel="icon" href="imagens/logobs3.png" width="100" height="100">
+
+	<style>
+		body {
+			background-color: #eee;
+		}
+
+
+		h5 {
+			color: black;
+			font-family: serif;
+			font-size: 25px;
+		}
+
+		h2 {
+			color: black;
+			font-family: serif;
+			font-size: 40px;
+		}
+
+		h4 {
+			color: black;
+			font-family: monospace;
+			font-size: 20px;
+		}
+
+		p {
+			font-family: monospace;
+			font-size: 17px;
+		}
+
+		body {
+			background-color: #f4f3ee;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+	</style>
+
+	<script>
+
+		var bv = "Bem Vindo(a)!";
+		var nov = "Aproveite nossa loja e nossas promoções <3";
+		const separador = " - ";
+
+		alert(bv + separador + nov);
+
+		const carousel = new bootstrap.Carousel('#myCarousel')
+
+	</script>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-sm navbar-light bg-light">
+		</br> </br>
+		<div class="container-fluid">
+			<img src="imagens/logobs.png" height="150px" width="150px" height="100" loading="lazy" />
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mynavbar">
+				<ul class="navbar-nav me-auto">
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Feminino</a>
+					</li>
+					&nbsp; &nbsp; &nbsp; &nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="calcados.html">Calçados</a>
+					</li>
+
+					&nbsp; &nbsp; &nbsp; &nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="jeans.html">Jeans&nbsp;<span class="badge bg-secondary">New</span></a>
+					</li>
+					&nbsp; &nbsp; &nbsp; &nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="acessorios.html">Acessórios</a>
+					</li>
+					&nbsp; &nbsp; &nbsp; &nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="tamanhos.html">Tamanhos</a>
+					</li>
+					&nbsp; &nbsp; &nbsp; &nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="aboutus.html">Sobre Nós</a>
+					</li>
+				</ul>
+
+				<form class="d-flex">
+					<input class="form-control me-2" type="text" placeholder="Search">
+					<button class="btn btn-dark" type="button">Search</button>
+				</form>
+				&nbsp; &nbsp; &nbsp; &nbsp;
+				<a href="carrinho.html" type="button" class="btn btn-dark">Carrinho&nbsp;<i class="fa-solid fa-cart-shopping"></a></i>
+				&nbsp; &nbsp; &nbsp; &nbsp;
+			</div>
+		</div>
+		</div>
+	</nav>
+
+	<h6>
+		<div class="alert alert-dark" role="alert" style="height:50px">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Feminino</a></li>
+				<li class="breadcrumb-item">Calçados</li>
+				<li class="breadcrumb-item">Jeans</li>
+				<li class="breadcrumb-item">Acessórios</li>
+				<li class="breadcrumb-item">Tamanhos</li>
+				<li class="breadcrumb-item">Sobre Nós</li>
+				<li class="breadcrumb-item">Carrinho</a></li>
+			</ol>
+		</div>
+	</h6>
+
+
+	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="imagens/bannersapatos.jpg" style="width:1900px">
+			</div>
+			<div class="carousel-item">
+				<img src="imagens/bannerpeças.jpg" style="width:1900px">
+			</div>
+			<div class="carousel-item">
+				<img src="imagens/bannerjeans.jpg" style="width:1900px">
+			</div>
+			<div class="carousel-item">
+				<img src="imagens/banner.jfif" style="width:1900px">
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+
+	</br> </br>
+
+	<div class="container">
+		<div class="row gx-5 justify-content-center">
+			<div class="col-lg-2 col-md-12">
+
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/croppedanjo.jfif" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text"> Cropped Anjos</p>
+						<a class="btn btn-primary">R$39,90</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">2 cores</li>
+						<li class="list-group-item">5 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/brooklyn.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text"> Camiseta Brooklyn</p>
+						<a class="btn btn-primary">R$49,90</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">4 cores</li>
+						<li class="list-group-item">7 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/anime.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text"> Cropped Anime</p>
+						<a class="btn btn-primary">R$30,90</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">3 cores</li>
+						<li class="list-group-item">4 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/caveira.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text"> Camiseta Caveira</p>
+						<a class="btn btn-primary">R$39,90</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">2 cores</li>
+						<li class="list-group-item">6 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/malhado.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text"> Cropped 90's Girl </p>
+						<a class="btn btn-primary">R$39,90</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">2 cores</li>
+						<li class="list-group-item">5 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/calcacargo.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text">Calça Cargo</p>
+						<a class="btn btn-primary">R$99,90</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">1 cor</li>
+						<li class="list-group-item">6 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</br> </br>
+
+	<div class="container">
+		<div class="row gx-5 justify-content-center">
+			<div class="col-lg-2 col-md-12">
+
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/conjuntodois.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text">Conjunto</p>
+						<a class="btn btn-primary">R$79,99</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">2 cores</li>
+						<li class="list-group-item">5 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/calcamoletom.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text">Calça Rabiscada</p>
+						<a class="btn btn-primary">R$89,99</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">3 cores</li>
+						<li class="list-group-item">8 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/listrado.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text">Camiseta Listrada</p>
+						<a class="btn btn-primary">R$59,99</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">2 cores</li>
+						<li class="list-group-item">5 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/moletomcurto.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text">Moletom Curto</p>
+						<a class="btn btn-primary">R$49,99</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">3 cores</li>
+						<li class="list-group-item">5 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/moletomhawkins.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text">Moletom Hawkins</p>
+						<a class="btn btn-primary">R$99,99</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">3 cores</li>
+						<li class="list-group-item">8 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/vestidoesvoacante.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text"> Vestido Simples</p>
+						<a class="btn btn-primary">R$109,99</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">2 cores</li>
+						<li class="list-group-item">4 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</br> </br>
+
+	<div class="container">
+		<div class="row gx-5 justify-content-center">
+			<div class="col-lg-2 col-md-12">
+
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/calcaborboleta.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text">Calça Borboleta</p>
+						<a class="btn btn-primary">R$69,99</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">2 cores</li>
+						<li class="list-group-item">8 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/shortsmoletom.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text">Shorts Moletom</p>
+						<a class="btn btn-primary">R$49,90</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">1 cor</li>
+						<li class="list-group-item">5 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/cardigannuvem.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text">Cardigan Nuvem</p>
+						<a class="btn btn-primary">R$99,99</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">1 cor</li>
+						<li class="list-group-item">6 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/cardiganmorango.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text"> Cardigan Morango</p>
+						<a class="btn btn-primary">R$99,99</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">1 cor</li>
+						<li class="list-group-item">6 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/saia.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text">Saia c/ Coturno</p>
+						<a class="btn btn-primary">R$159,99</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">2 cores</li>
+						<li class="list-group-item">5 tamanhos(s)</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-12">
+				<div class="card" style="width:200px">
+					<img class="card-img-top" <img src="imagens/conjuntoconfort.jpg" alt="Card image">
+					<div class="card-body">
+						<h4 class="card-title"></h4>
+						<p class="card-text">Conjunto Confort</p>
+						<a class="btn btn-primary">R$119,99</a>
+					</div>
+					<ul class="list-group">
+						<li class="list-group-item">2 cores</li>
+						<li class="list-group-item">7 tamanhos</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="mt-5 p-4 bg-dark text-white text-center">
+			<p>By: Bella & Gab</p>
+		</div>
+	</footer>
+
+</body>
+
+</html>
